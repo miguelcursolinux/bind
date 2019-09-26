@@ -2,14 +2,13 @@
 ; BIND data file for local loopback interface
 ;
 $TTL    604800
-@       IN      SOA     THALES1.LOCAL.DO. root.THALES1.LOCAL.DO. (
+@       IN      SOA     THALES04.LOCAL.DO. root.THALES04.LOCAL.DO. (
                               2         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
                          604800 )       ; Negative Cache TTL
 ;
-        IN      NS      THALES1.LOCAL.DO.
+        IN      NS      THALES04.LOCAL.DO.
 ; POPULATE WITH THE ACTUAL PRIVATE IP ADDRESSES
-THALES1 IN      A       10.131.228.13
-THALES2 IN      A       10.131.227.169
+THALES04 IN      A       10.133.242.163
